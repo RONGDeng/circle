@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
-
+#import "SplashSearchAnimateView.h"
 @interface ViewController ()
+{
+    SplashSearchAnimateView*_animate ;
+}
 
 @end
 
@@ -16,7 +19,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+     _animate = [[SplashSearchAnimateView alloc] initWithFrame:self.view.bounds];
+        
+    [self.view addSubview:_animate];
+}
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [_animate animate:YES];
+    
+}
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [_animate animate:NO];
+    
 }
 
 - (void)didReceiveMemoryWarning {

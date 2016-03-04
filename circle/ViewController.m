@@ -19,19 +19,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+     self.view.backgroundColor=[UIColor blueColor];
     
-     _animate = [[SplashSearchAnimateView alloc] initWithFrame:self.view.bounds];
-    self.view.backgroundColor=[UIColor blackColor];
+    _animate = [[SplashSearchAnimateView alloc] initWithFrame:self.view.bounds];
+   
     [self.view addSubview:_animate];
 }
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-
-    
-    
-    
-    
     [_animate animate:YES];
     
 }

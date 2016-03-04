@@ -15,6 +15,7 @@
 		635FE4921C75543A006E5BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635FE4901C75543A006E5BEB /* LaunchScreen.storyboard */; };
 		635FE49D1C75543B006E5BEB /* circleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 635FE49C1C75543B006E5BEB /* circleTests.m */; };
 		635FE4A81C75543B006E5BEB /* circleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 635FE4A71C75543B006E5BEB /* circleUITests.m */; };
+		635FE4B71C75546A006E5BEB /* SplashSearchAnimateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 635FE4B61C75546A006E5BEB /* SplashSearchAnimateView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		635FE4A31C75543B006E5BEB /* circleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = circleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		635FE4A71C75543B006E5BEB /* circleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = circleUITests.m; sourceTree = "<group>"; };
 		635FE4A91C75543B006E5BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635FE4B51C75546A006E5BEB /* SplashSearchAnimateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashSearchAnimateView.h; sourceTree = "<group>"; };
+		635FE4B61C75546A006E5BEB /* SplashSearchAnimateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashSearchAnimateView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				635FE4901C75543A006E5BEB /* LaunchScreen.storyboard */,
 				635FE4931C75543B006E5BEB /* Info.plist */,
 				635FE4821C75543A006E5BEB /* Supporting Files */,
+				635FE4B51C75546A006E5BEB /* SplashSearchAnimateView.h */,
+				635FE4B61C75546A006E5BEB /* SplashSearchAnimateView.m */,
 			);
 			path = circle;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				635FE48A1C75543A006E5BEB /* ViewController.m in Sources */,
 				635FE4871C75543A006E5BEB /* AppDelegate.m in Sources */,
 				635FE4841C75543A006E5BEB /* main.m in Sources */,
+				635FE4B71C75546A006E5BEB /* SplashSearchAnimateView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
